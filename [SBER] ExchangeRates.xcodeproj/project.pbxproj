@@ -27,6 +27,14 @@
 		836F31792B25B9EB001F210E /* NetworkClientAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31782B25B9EB001F210E /* NetworkClientAssembly.swift */; };
 		836F317B2B25BB06001F210E /* NetworkServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F317A2B25BB06001F210E /* NetworkServiceAssembly.swift */; };
 		836F317D2B25BD6B001F210E /* ExchangeRatesRepositoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F317C2B25BD6B001F210E /* ExchangeRatesRepositoryAssembly.swift */; };
+		836F31802B25DD11001F210E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836F317F2B25DD10001F210E /* LaunchScreen.storyboard */; };
+		836F31822B25E523001F210E /* AppLaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31812B25E523001F210E /* AppLaunchScreen.swift */; };
+		836F31842B25E595001F210E /* AppLaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31832B25E595001F210E /* AppLaunchViewModel.swift */; };
+		836F31862B25E5BE001F210E /* AppLaunchOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31852B25E5BE001F210E /* AppLaunchOutput.swift */; };
+		836F31882B25E89B001F210E /* AppLaunchScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31872B25E89B001F210E /* AppLaunchScreenAssembly.swift */; };
+		836F318B2B25E8D3001F210E /* ScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F318A2B25E8D3001F210E /* ScreenAssembly.swift */; };
+		836F318E2B25EBF2001F210E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F318D2B25EBF2001F210E /* MainCoordinator.swift */; };
+		836F31912B25F0BB001F210E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 836F31902B25F0BB001F210E /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +58,14 @@
 		836F31782B25B9EB001F210E /* NetworkClientAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientAssembly.swift; sourceTree = "<group>"; };
 		836F317A2B25BB06001F210E /* NetworkServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceAssembly.swift; sourceTree = "<group>"; };
 		836F317C2B25BD6B001F210E /* ExchangeRatesRepositoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesRepositoryAssembly.swift; sourceTree = "<group>"; };
+		836F317F2B25DD10001F210E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		836F31812B25E523001F210E /* AppLaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchScreen.swift; sourceTree = "<group>"; };
+		836F31832B25E595001F210E /* AppLaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchViewModel.swift; sourceTree = "<group>"; };
+		836F31852B25E5BE001F210E /* AppLaunchOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchOutput.swift; sourceTree = "<group>"; };
+		836F31872B25E89B001F210E /* AppLaunchScreenAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchScreenAssembly.swift; sourceTree = "<group>"; };
+		836F318A2B25E8D3001F210E /* ScreenAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenAssembly.swift; sourceTree = "<group>"; };
+		836F318D2B25EBF2001F210E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		836F31902B25F0BB001F210E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +99,12 @@
 		836F31402B25857B001F210E /* [SBER] ExchangeRates */ = {
 			isa = PBXGroup;
 			children = (
+				836F318C2B25EBCF001F210E /* Coordinators */,
 				836F31552B259581001F210E /* Core */,
 				836F31522B25943E001F210E /* Modules */,
+				836F318F2B25F02B001F210E /* Resources */,
 				836F31412B25857B001F210E /* _SBER__ExchangeRatesApp.swift */,
 				836F31432B25857B001F210E /* ContentView.swift */,
-				836F31452B25857F001F210E /* Assets.xcassets */,
 				836F31472B25857F001F210E /* Preview Content */,
 			);
 			path = "[SBER] ExchangeRates";
@@ -104,6 +121,7 @@
 		836F31522B25943E001F210E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				836F317E2B25DC6A001F210E /* AppLaunch */,
 				836F31532B2594A4001F210E /* ExchangeRates */,
 			);
 			path = Modules;
@@ -190,8 +208,38 @@
 			isa = PBXGroup;
 			children = (
 				836F31762B25B9A9001F210E /* Assembly.swift */,
+				836F318A2B25E8D3001F210E /* ScreenAssembly.swift */,
 			);
 			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		836F317E2B25DC6A001F210E /* AppLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				836F31852B25E5BE001F210E /* AppLaunchOutput.swift */,
+				836F31832B25E595001F210E /* AppLaunchViewModel.swift */,
+				836F31812B25E523001F210E /* AppLaunchScreen.swift */,
+				836F317F2B25DD10001F210E /* LaunchScreen.storyboard */,
+				836F31872B25E89B001F210E /* AppLaunchScreenAssembly.swift */,
+			);
+			path = AppLaunch;
+			sourceTree = "<group>";
+		};
+		836F318C2B25EBCF001F210E /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				836F318D2B25EBF2001F210E /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		836F318F2B25F02B001F210E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				836F31452B25857F001F210E /* Assets.xcassets */,
+				836F31902B25F0BB001F210E /* Localizable.strings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +307,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836F31802B25DD11001F210E /* LaunchScreen.storyboard in Resources */,
+				836F31912B25F0BB001F210E /* Localizable.strings in Resources */,
 				836F31492B25857F001F210E /* Preview Assets.xcassets in Resources */,
 				836F31462B25857F001F210E /* Assets.xcassets in Resources */,
 			);
@@ -295,9 +345,15 @@
 			files = (
 				836F315C2B259C74001F210E /* NetworkService.swift in Sources */,
 				836F316D2B25A784001F210E /* ExchangeRatesRepositoryImpl.swift in Sources */,
+				836F31882B25E89B001F210E /* AppLaunchScreenAssembly.swift in Sources */,
+				836F31822B25E523001F210E /* AppLaunchScreen.swift in Sources */,
 				836F317B2B25BB06001F210E /* NetworkServiceAssembly.swift in Sources */,
 				836F31612B25A202001F210E /* NetworkServiceDecoder.swift in Sources */,
+				836F31862B25E5BE001F210E /* AppLaunchOutput.swift in Sources */,
 				836F31772B25B9A9001F210E /* Assembly.swift in Sources */,
+				836F318E2B25EBF2001F210E /* MainCoordinator.swift in Sources */,
+				836F31842B25E595001F210E /* AppLaunchViewModel.swift in Sources */,
+				836F318B2B25E8D3001F210E /* ScreenAssembly.swift in Sources */,
 				836F316A2B25A5A2001F210E /* ExchangeRatesRepository.swift in Sources */,
 				836F317D2B25BD6B001F210E /* ExchangeRatesRepositoryAssembly.swift in Sources */,
 				836F31442B25857B001F210E /* ContentView.swift in Sources */,
@@ -446,6 +502,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -481,6 +538,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;

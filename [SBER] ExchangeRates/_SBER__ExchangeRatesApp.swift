@@ -11,7 +11,7 @@ import SwiftUI
 struct _SBER__ExchangeRatesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainCoordinator()
         }
     }
 }
