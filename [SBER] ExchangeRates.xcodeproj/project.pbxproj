@@ -11,6 +11,22 @@
 		836F31442B25857B001F210E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31432B25857B001F210E /* ContentView.swift */; };
 		836F31462B25857F001F210E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836F31452B25857F001F210E /* Assets.xcassets */; };
 		836F31492B25857F001F210E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836F31482B25857F001F210E /* Preview Assets.xcassets */; };
+		836F31582B25959C001F210E /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31572B25959C001F210E /* NetworkClient.swift */; };
+		836F315A2B259881001F210E /* HttpNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31592B259881001F210E /* HttpNetworkClient.swift */; };
+		836F315C2B259C74001F210E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F315B2B259C74001F210E /* NetworkService.swift */; };
+		836F315F2B259D7E001F210E /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 836F315E2B259D7E001F210E /* XMLCoder */; };
+		836F31612B25A202001F210E /* NetworkServiceDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31602B25A202001F210E /* NetworkServiceDecoder.swift */; };
+		836F31632B25A382001F210E /* XmlNetworkServiceDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31622B25A382001F210E /* XmlNetworkServiceDecoder.swift */; };
+		836F31662B25A400001F210E /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31652B25A400001F210E /* Currency.swift */; };
+		836F31682B25A4C8001F210E /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31672B25A4C8001F210E /* ExchangeRate.swift */; };
+		836F316A2B25A5A2001F210E /* ExchangeRatesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31692B25A5A2001F210E /* ExchangeRatesRepository.swift */; };
+		836F316D2B25A784001F210E /* ExchangeRatesRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F316C2B25A784001F210E /* ExchangeRatesRepositoryImpl.swift */; };
+		836F316F2B25B3AE001F210E /* ExchangeRatesDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F316E2B25B3AE001F210E /* ExchangeRatesDto.swift */; };
+		836F31722B25B5C4001F210E /* NetworkDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31712B25B5C4001F210E /* NetworkDto.swift */; };
+		836F31772B25B9A9001F210E /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31762B25B9A9001F210E /* Assembly.swift */; };
+		836F31792B25B9EB001F210E /* NetworkClientAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31782B25B9EB001F210E /* NetworkClientAssembly.swift */; };
+		836F317B2B25BB06001F210E /* NetworkServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F317A2B25BB06001F210E /* NetworkServiceAssembly.swift */; };
+		836F317D2B25BD6B001F210E /* ExchangeRatesRepositoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F317C2B25BD6B001F210E /* ExchangeRatesRepositoryAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +35,21 @@
 		836F31432B25857B001F210E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		836F31452B25857F001F210E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		836F31482B25857F001F210E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		836F31572B25959C001F210E /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		836F31592B259881001F210E /* HttpNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpNetworkClient.swift; sourceTree = "<group>"; };
+		836F315B2B259C74001F210E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		836F31602B25A202001F210E /* NetworkServiceDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceDecoder.swift; sourceTree = "<group>"; };
+		836F31622B25A382001F210E /* XmlNetworkServiceDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmlNetworkServiceDecoder.swift; sourceTree = "<group>"; };
+		836F31652B25A400001F210E /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		836F31672B25A4C8001F210E /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+		836F31692B25A5A2001F210E /* ExchangeRatesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesRepository.swift; sourceTree = "<group>"; };
+		836F316C2B25A784001F210E /* ExchangeRatesRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesRepositoryImpl.swift; sourceTree = "<group>"; };
+		836F316E2B25B3AE001F210E /* ExchangeRatesDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesDto.swift; sourceTree = "<group>"; };
+		836F31712B25B5C4001F210E /* NetworkDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDto.swift; sourceTree = "<group>"; };
+		836F31762B25B9A9001F210E /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		836F31782B25B9EB001F210E /* NetworkClientAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientAssembly.swift; sourceTree = "<group>"; };
+		836F317A2B25BB06001F210E /* NetworkServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceAssembly.swift; sourceTree = "<group>"; };
+		836F317C2B25BD6B001F210E /* ExchangeRatesRepositoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesRepositoryAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836F315F2B259D7E001F210E /* XMLCoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +83,8 @@
 		836F31402B25857B001F210E /* [SBER] ExchangeRates */ = {
 			isa = PBXGroup;
 			children = (
+				836F31552B259581001F210E /* Core */,
+				836F31522B25943E001F210E /* Modules */,
 				836F31412B25857B001F210E /* _SBER__ExchangeRatesApp.swift */,
 				836F31432B25857B001F210E /* ContentView.swift */,
 				836F31452B25857F001F210E /* Assets.xcassets */,
@@ -65,6 +99,99 @@
 				836F31482B25857F001F210E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		836F31522B25943E001F210E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				836F31532B2594A4001F210E /* ExchangeRates */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		836F31532B2594A4001F210E /* ExchangeRates */ = {
+			isa = PBXGroup;
+			children = (
+				836F316B2B25A768001F210E /* Data */,
+			);
+			path = ExchangeRates;
+			sourceTree = "<group>";
+		};
+		836F31542B2594F8001F210E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				836F31642B25A3D3001F210E /* ExchangeRates */,
+				836F31652B25A400001F210E /* Currency.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		836F31552B259581001F210E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				836F31752B25B90F001F210E /* Assemblies */,
+				836F31542B2594F8001F210E /* Domain */,
+				836F31562B25958A001F210E /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		836F31562B25958A001F210E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				836F31732B25B875001F210E /* Clients */,
+				836F31742B25B88C001F210E /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		836F31642B25A3D3001F210E /* ExchangeRates */ = {
+			isa = PBXGroup;
+			children = (
+				836F31672B25A4C8001F210E /* ExchangeRate.swift */,
+				836F31692B25A5A2001F210E /* ExchangeRatesRepository.swift */,
+			);
+			path = ExchangeRates;
+			sourceTree = "<group>";
+		};
+		836F316B2B25A768001F210E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				836F316C2B25A784001F210E /* ExchangeRatesRepositoryImpl.swift */,
+				836F316E2B25B3AE001F210E /* ExchangeRatesDto.swift */,
+				836F317C2B25BD6B001F210E /* ExchangeRatesRepositoryAssembly.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		836F31732B25B875001F210E /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				836F31572B25959C001F210E /* NetworkClient.swift */,
+				836F31592B259881001F210E /* HttpNetworkClient.swift */,
+				836F31782B25B9EB001F210E /* NetworkClientAssembly.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		836F31742B25B88C001F210E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				836F315B2B259C74001F210E /* NetworkService.swift */,
+				836F31712B25B5C4001F210E /* NetworkDto.swift */,
+				836F31602B25A202001F210E /* NetworkServiceDecoder.swift */,
+				836F31622B25A382001F210E /* XmlNetworkServiceDecoder.swift */,
+				836F317A2B25BB06001F210E /* NetworkServiceAssembly.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		836F31752B25B90F001F210E /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				836F31762B25B9A9001F210E /* Assembly.swift */,
+			);
+			path = Assemblies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +211,9 @@
 			dependencies = (
 			);
 			name = "[SBER] ExchangeRates";
+			packageProductDependencies = (
+				836F315E2B259D7E001F210E /* XMLCoder */,
+			);
 			productName = "[SBER] ExchangeRates";
 			productReference = 836F313E2B25857B001F210E /* [SBER] ExchangeRates.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +242,9 @@
 				Base,
 			);
 			mainGroup = 836F31352B25857B001F210E;
+			packageReferences = (
+				836F315D2B259D7E001F210E /* XCRemoteSwiftPackageReference "XMLCoder" */,
+			);
 			productRefGroup = 836F313F2B25857B001F210E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -160,8 +293,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836F315C2B259C74001F210E /* NetworkService.swift in Sources */,
+				836F316D2B25A784001F210E /* ExchangeRatesRepositoryImpl.swift in Sources */,
+				836F317B2B25BB06001F210E /* NetworkServiceAssembly.swift in Sources */,
+				836F31612B25A202001F210E /* NetworkServiceDecoder.swift in Sources */,
+				836F31772B25B9A9001F210E /* Assembly.swift in Sources */,
+				836F316A2B25A5A2001F210E /* ExchangeRatesRepository.swift in Sources */,
+				836F317D2B25BD6B001F210E /* ExchangeRatesRepositoryAssembly.swift in Sources */,
 				836F31442B25857B001F210E /* ContentView.swift in Sources */,
+				836F315A2B259881001F210E /* HttpNetworkClient.swift in Sources */,
+				836F31792B25B9EB001F210E /* NetworkClientAssembly.swift in Sources */,
+				836F31662B25A400001F210E /* Currency.swift in Sources */,
 				836F31422B25857B001F210E /* _SBER__ExchangeRatesApp.swift in Sources */,
+				836F31582B25959C001F210E /* NetworkClient.swift in Sources */,
+				836F31682B25A4C8001F210E /* ExchangeRate.swift in Sources */,
+				836F31722B25B5C4001F210E /* NetworkDto.swift in Sources */,
+				836F316F2B25B3AE001F210E /* ExchangeRatesDto.swift in Sources */,
+				836F31632B25A382001F210E /* XmlNetworkServiceDecoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +522,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		836F315D2B259D7E001F210E /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/XMLCoder";
+			requirement = {
+				kind = exactVersion;
+				version = 0.17.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		836F315E2B259D7E001F210E /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 836F315D2B259D7E001F210E /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 836F31362B25857B001F210E /* Project object */;
 }
