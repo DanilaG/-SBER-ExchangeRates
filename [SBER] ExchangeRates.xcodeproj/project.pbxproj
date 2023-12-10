@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		836F31422B25857B001F210E /* _SBER__ExchangeRatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31412B25857B001F210E /* _SBER__ExchangeRatesApp.swift */; };
-		836F31442B25857B001F210E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31432B25857B001F210E /* ContentView.swift */; };
 		836F31462B25857F001F210E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836F31452B25857F001F210E /* Assets.xcassets */; };
-		836F31492B25857F001F210E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836F31482B25857F001F210E /* Preview Assets.xcassets */; };
 		836F31582B25959C001F210E /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31572B25959C001F210E /* NetworkClient.swift */; };
 		836F315A2B259881001F210E /* HttpNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31592B259881001F210E /* HttpNetworkClient.swift */; };
 		836F315C2B259C74001F210E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F315B2B259C74001F210E /* NetworkService.swift */; };
@@ -35,14 +33,18 @@
 		836F318B2B25E8D3001F210E /* ScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F318A2B25E8D3001F210E /* ScreenAssembly.swift */; };
 		836F318E2B25EBF2001F210E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F318D2B25EBF2001F210E /* MainCoordinator.swift */; };
 		836F31912B25F0BB001F210E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 836F31902B25F0BB001F210E /* Localizable.strings */; };
+		836F31942B25F6DF001F210E /* ExchangeRatesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31932B25F6DF001F210E /* ExchangeRatesUseCase.swift */; };
+		836F31972B25F865001F210E /* ExchangeRatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31962B25F865001F210E /* ExchangeRatesViewModel.swift */; };
+		836F31992B2601EA001F210E /* ExchangeRatesAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F31982B2601EA001F210E /* ExchangeRatesAdapter.swift */; };
+		836F319C2B2602B6001F210E /* ExchangeRatesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F319B2B2602B6001F210E /* ExchangeRatesScreen.swift */; };
+		836F319E2B26039B001F210E /* ExchangeRateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F319D2B26039B001F210E /* ExchangeRateCell.swift */; };
+		836F31A02B2605BC001F210E /* ExchangeRatesScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F319F2B2605BC001F210E /* ExchangeRatesScreenAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		836F313E2B25857B001F210E /* [SBER] ExchangeRates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "[SBER] ExchangeRates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		836F31412B25857B001F210E /* _SBER__ExchangeRatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _SBER__ExchangeRatesApp.swift; sourceTree = "<group>"; };
-		836F31432B25857B001F210E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		836F31452B25857F001F210E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		836F31482B25857F001F210E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		836F31572B25959C001F210E /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		836F31592B259881001F210E /* HttpNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpNetworkClient.swift; sourceTree = "<group>"; };
 		836F315B2B259C74001F210E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -66,6 +68,12 @@
 		836F318A2B25E8D3001F210E /* ScreenAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenAssembly.swift; sourceTree = "<group>"; };
 		836F318D2B25EBF2001F210E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		836F31902B25F0BB001F210E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		836F31932B25F6DF001F210E /* ExchangeRatesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesUseCase.swift; sourceTree = "<group>"; };
+		836F31962B25F865001F210E /* ExchangeRatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesViewModel.swift; sourceTree = "<group>"; };
+		836F31982B2601EA001F210E /* ExchangeRatesAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesAdapter.swift; sourceTree = "<group>"; };
+		836F319B2B2602B6001F210E /* ExchangeRatesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesScreen.swift; sourceTree = "<group>"; };
+		836F319D2B26039B001F210E /* ExchangeRateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateCell.swift; sourceTree = "<group>"; };
+		836F319F2B2605BC001F210E /* ExchangeRatesScreenAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesScreenAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,18 +112,8 @@
 				836F31522B25943E001F210E /* Modules */,
 				836F318F2B25F02B001F210E /* Resources */,
 				836F31412B25857B001F210E /* _SBER__ExchangeRatesApp.swift */,
-				836F31432B25857B001F210E /* ContentView.swift */,
-				836F31472B25857F001F210E /* Preview Content */,
 			);
 			path = "[SBER] ExchangeRates";
-			sourceTree = "<group>";
-		};
-		836F31472B25857F001F210E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				836F31482B25857F001F210E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		836F31522B25943E001F210E /* Modules */ = {
@@ -131,6 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				836F316B2B25A768001F210E /* Data */,
+				836F31922B25F685001F210E /* Domain */,
+				836F31952B25F836001F210E /* ViewModel */,
+				836F319A2B260274001F210E /* View */,
+				836F319F2B2605BC001F210E /* ExchangeRatesScreenAssembly.swift */,
 			);
 			path = ExchangeRates;
 			sourceTree = "<group>";
@@ -242,6 +244,32 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		836F31922B25F685001F210E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				836F31932B25F6DF001F210E /* ExchangeRatesUseCase.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		836F31952B25F836001F210E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				836F31962B25F865001F210E /* ExchangeRatesViewModel.swift */,
+				836F31982B2601EA001F210E /* ExchangeRatesAdapter.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		836F319A2B260274001F210E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				836F319B2B2602B6001F210E /* ExchangeRatesScreen.swift */,
+				836F319D2B26039B001F210E /* ExchangeRateCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,7 +337,6 @@
 			files = (
 				836F31802B25DD11001F210E /* LaunchScreen.storyboard in Resources */,
 				836F31912B25F0BB001F210E /* Localizable.strings in Resources */,
-				836F31492B25857F001F210E /* Preview Assets.xcassets in Resources */,
 				836F31462B25857F001F210E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836F31942B25F6DF001F210E /* ExchangeRatesUseCase.swift in Sources */,
 				836F315C2B259C74001F210E /* NetworkService.swift in Sources */,
 				836F316D2B25A784001F210E /* ExchangeRatesRepositoryImpl.swift in Sources */,
 				836F31882B25E89B001F210E /* AppLaunchScreenAssembly.swift in Sources */,
@@ -350,18 +378,22 @@
 				836F317B2B25BB06001F210E /* NetworkServiceAssembly.swift in Sources */,
 				836F31612B25A202001F210E /* NetworkServiceDecoder.swift in Sources */,
 				836F31862B25E5BE001F210E /* AppLaunchOutput.swift in Sources */,
+				836F319E2B26039B001F210E /* ExchangeRateCell.swift in Sources */,
 				836F31772B25B9A9001F210E /* Assembly.swift in Sources */,
 				836F318E2B25EBF2001F210E /* MainCoordinator.swift in Sources */,
 				836F31842B25E595001F210E /* AppLaunchViewModel.swift in Sources */,
 				836F318B2B25E8D3001F210E /* ScreenAssembly.swift in Sources */,
 				836F316A2B25A5A2001F210E /* ExchangeRatesRepository.swift in Sources */,
 				836F317D2B25BD6B001F210E /* ExchangeRatesRepositoryAssembly.swift in Sources */,
-				836F31442B25857B001F210E /* ContentView.swift in Sources */,
 				836F315A2B259881001F210E /* HttpNetworkClient.swift in Sources */,
 				836F31792B25B9EB001F210E /* NetworkClientAssembly.swift in Sources */,
 				836F31662B25A400001F210E /* Currency.swift in Sources */,
+				836F319C2B2602B6001F210E /* ExchangeRatesScreen.swift in Sources */,
 				836F31422B25857B001F210E /* _SBER__ExchangeRatesApp.swift in Sources */,
 				836F31582B25959C001F210E /* NetworkClient.swift in Sources */,
+				836F31992B2601EA001F210E /* ExchangeRatesAdapter.swift in Sources */,
+				836F31A02B2605BC001F210E /* ExchangeRatesScreenAssembly.swift in Sources */,
+				836F31972B25F865001F210E /* ExchangeRatesViewModel.swift in Sources */,
 				836F31682B25A4C8001F210E /* ExchangeRate.swift in Sources */,
 				836F31722B25B5C4001F210E /* NetworkDto.swift in Sources */,
 				836F316F2B25B3AE001F210E /* ExchangeRatesDto.swift in Sources */,
@@ -490,10 +522,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"[SBER] ExchangeRates/Preview Content\"";
 				DEVELOPMENT_TEAM = 3TNZ35SGHD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -526,10 +556,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"[SBER] ExchangeRates/Preview Content\"";
 				DEVELOPMENT_TEAM = 3TNZ35SGHD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

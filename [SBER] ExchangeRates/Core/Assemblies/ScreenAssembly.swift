@@ -8,4 +8,11 @@
 import SwiftUI
 
 /// Сборщик экранов
-protocol ScreenAssembly: Assembly where Result: View {}
+protocol ScreenAssembly {
+    /// Результат сборки
+    associatedtype Screen: View
+    /// Метод получения собранного экрана
+    /// - Returns: экран
+    @MainActor
+    func get() -> Screen
+}

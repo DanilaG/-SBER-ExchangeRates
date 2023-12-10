@@ -9,3 +9,10 @@
 "AppLaunch.error.network.title" = "Упс... Ошибка";
 "AppLaunch.error.network.message" = "Не смогли получить данные.\nПовторите попытку позже";
 "AppLaunch.error.network.button" = "Повторить";
+
+"ExchangeRates.title" = "Валюты";
+"ExchangeRates.notFound" = "Ничего не найдено";
+
+"ExchangeRates.error.network.title" = "Упс... Ошибка";
+"ExchangeRates.error.network.message" = "Не смогли обновить данные";
+"ExchangeRates.error.network.button" = "Ок";

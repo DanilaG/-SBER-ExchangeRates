@@ -17,7 +17,9 @@ struct MainCoordinator: View {
     var body: some View {
         Group {
             if let rates {
-                ContentView()
+                NavigationStack {
+                    ExchangeRatesScreenAssembly(input: rates).get()
+                }
             } else {
                 AppLaunchScreenAssembly(
                     output: .init(loaded: { rates = $0 })
