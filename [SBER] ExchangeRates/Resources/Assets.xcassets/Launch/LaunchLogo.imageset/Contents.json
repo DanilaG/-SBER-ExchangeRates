@@ -1,8 +1,19 @@
 {
   "images" : [
     {
-      "filename" : "LaunchLogo.pdf",
-      "idiom" : "universal"
+      "filename" : "LaunchLogo_x1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "LaunchLogo_x2.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "LaunchLogo_x3.png",
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {
@@ -10,6 +21,7 @@
     "version" : 1
   },
   "properties" : {
+    "compression-type" : "lossless",
     "preserves-vector-representation" : true
   }
 }
