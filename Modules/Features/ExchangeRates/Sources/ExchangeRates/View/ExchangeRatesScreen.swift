@@ -33,13 +33,13 @@ struct ExchangeRatesScreen<ViewModel: ExchangeRatesViewModel>: View {
             await viewModel.reload()
         }
         .alert(
-            "ExchangeRates.error.network.title".moduleLocalized,
+            R.string.localizable.exchangeRatesErrorNetworkTitle(),
             isPresented: .constant(viewModel.reloadError),
-            actions: { Button("ExchangeRates.error.network.button".moduleLocalized, action: {}) },
-            message: { Text("ExchangeRates.error.network.message".moduleLocalized) }
+            actions: { Button(R.string.localizable.exchangeRatesErrorNetworkButton(), action: {}) },
+            message: { Text(R.string.localizable.exchangeRatesErrorNetworkMessage()) }
         )
         .autocorrectionDisabled()
-        .navigationTitle("ExchangeRates.title".moduleLocalized)
+        .navigationTitle(R.string.localizable.exchangeRatesTitle())
     }
     
     /// Инициализатор
@@ -68,9 +68,9 @@ struct ExchangeRatesScreen<ViewModel: ExchangeRatesViewModel>: View {
             Color(uiColor: .systemGroupedBackground)
                 .ignoresSafeArea()
             VStack(alignment: .center, spacing: 8) {
-                Image(systemName: "magnifyingglass".moduleLocalized)
+                Image(systemName: "magnifyingglass")
                     .imageScale(.large)
-                Text("ExchangeRates.notFound".moduleLocalized)
+                Text(R.string.localizable.exchangeRatesNotFound())
             }
         }
     }

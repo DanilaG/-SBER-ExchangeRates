@@ -29,10 +29,10 @@ struct AppLaunchScreen<ViewModel: AppLaunchViewModel>: View {
         .ignoresSafeArea()
         .onAppear { viewModel.load() }
         .alert(
-            "AppLaunch.error.network.title".moduleLocalized,
+            R.string.localizable.appLaunchErrorNetworkTitle(),
             isPresented: .constant(viewModel.state == .error),
-            actions: { Button("AppLaunch.error.network.button".moduleLocalized, action: { viewModel.load() }) },
-            message: { Text("AppLaunch.error.network.message".moduleLocalized) }
+            actions: { Button(R.string.localizable.appLaunchErrorNetworkButton(), action: { viewModel.load() }) },
+            message: { Text(R.string.localizable.appLaunchErrorNetworkMessage()) }
         )
     }
     
@@ -40,11 +40,5 @@ struct AppLaunchScreen<ViewModel: AppLaunchViewModel>: View {
     /// - Parameter viewModel: view модель
     init(viewModel: ViewModel) {
         self._viewModel =  StateObject(wrappedValue: viewModel)
-    }
-}
-
-fileprivate extension String {
-    var moduleLocalized: String {
-        Bundle.module.localizedString(forKey: self, value: nil, table: nil)
     }
 }
