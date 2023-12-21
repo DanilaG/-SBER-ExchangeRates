@@ -5,6 +5,7 @@
 //  Created by Danila on 10.12.2023.
 //
 
+// sourcery: AutoMockable
 /// Адаптер курса валют
 protocol ExchangeRatesAdapter {
     /// Адаптирует к view data

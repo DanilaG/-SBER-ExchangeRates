@@ -9,18 +9,20 @@ import Assembler
 
 /// Сборщик сервиса для работы с сетью
 public struct NetworkServiceAssembly: Assembly {
-    
-    private static let service = NetworkService(
-        networkClient: NetworkClientAssembly().get(),
-        decoder: XmlNetworkServiceDecoder()
-    )
+    private static let decoder = XmlNetworkServiceDecoder()
+    private let client: NetworkClient
     
     /// Инициализатор
-    public init() {}
+    public init(client: NetworkClient? = nil) {
+        self.client = client ?? NetworkClientAssembly().get()
+    }
     
     // MARK: - Assembly
     
     public func get() -> NetworkService {
-        NetworkServiceAssembly.service
+        NetworkService(
+           networkClient: client,
+           decoder: NetworkServiceAssembly.decoder
+       )
     }
 }

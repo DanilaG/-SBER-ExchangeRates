@@ -5,6 +5,7 @@
 //  Created by Danila on 10.12.2023.
 //
 
+// sourcery: AutoMockable
 /// Репозиторий получения стоймости валюты
 public protocol ExchangeRatesRepository {
     /// Метод получения стоймости валюты

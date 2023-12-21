@@ -53,12 +53,14 @@ final class AppLaunchViewModelImpl<T>: AppLaunchViewModel {
     @MainActor
     func load() {
         guard state != .loading else { return }
+        state = .loading
         Task {
             do {
                 try await output.loaded(
                     input.dataProvider()
                 )
             } catch {
+                print("!!==error")
                 state = .error
             }
         }

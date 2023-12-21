@@ -7,6 +7,7 @@
 
 import Foundation
 
+// sourcery: AutoMockable
 /// Use case для экрана списка валют
 protocol ExchangeRatesUseCase {
     /// Предоставляет стоймость валют для заданного параметра писка
@@ -45,7 +46,6 @@ final class ExchangeRatesUseCaseImpl: ExchangeRatesUseCase {
                 $0.currency.name.lowercased().contains(searchQuery) ||
                 $0.currency.code.lowercased().contains(searchQuery)
             })
-            .sorted()
     }
     
     func update() async throws {

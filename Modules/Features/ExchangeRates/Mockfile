@@ -1,0 +1,15 @@
+sourceryCommand: null
+sourceryTemplate: null
+
+ExchangeRatesMocks:
+  sources:
+    include:
+    - ./
+    - ./../../Core/Network/Sources/Network/
+  output: ./Tests/ExchangeRatesTests/Generated/Mocks.swift
+  targets:
+  - ExchangeRatesTests
+  testable:
+  - ExchangeRates
+  imports:
+  - Network

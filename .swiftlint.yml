@@ -1,3 +1,6 @@
 disabled_rules:
   - trailing_whitespace
   - type_name
+excluded:
+  - R.generated.swift
+  - Modules/*/*/*/*/Generated/

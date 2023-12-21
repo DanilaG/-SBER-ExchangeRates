@@ -7,8 +7,9 @@
 
 import Foundation
 
+// sourcery: AutoMockable
 /// Сетевой клиент
-protocol NetworkClient {
+public protocol NetworkClient {
     /// Метод получения данных
     /// - Parameter urlRequest: запрос
     /// - Returns: данные

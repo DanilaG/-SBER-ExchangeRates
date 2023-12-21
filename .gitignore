@@ -26,3 +26,9 @@ xcuserdata/
 
 # Swift Package Manager
 .build/
+
+# R
+R.generated.swift
+
+# SwiftyMock
+Modules/*/*/*/*/Generated/

@@ -10,9 +10,11 @@ import Assembler
 /// Сборщик сетевого клиента
 struct NetworkClientAssembly: Assembly {
     
+    private static let client = HttpNetworkClient()
+    
     // MARK: - Assembly
     
     func get() -> NetworkClient {
-        HttpNetworkClient()
+        NetworkClientAssembly.client
     }
 }
