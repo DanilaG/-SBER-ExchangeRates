@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "6B12D107-4EAF-4FCE-B38F-ABBFE46D8E82",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Modules\/Features\/AppLaunch",
+        "identifier" : "AppLaunchTests",
+        "name" : "AppLaunchTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Modules\/Features\/ExchangeRates",
+        "identifier" : "ExchangeRatesTests",
+        "name" : "ExchangeRatesTests"
+      }
+    }
+  ],
+  "version" : 1
+}

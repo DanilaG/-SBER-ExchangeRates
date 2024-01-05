@@ -1,4 +1,4 @@
-sourceryCommand: null
+sourceryCommand: mint run sourcery@1.9.2
 sourceryTemplate: null
 
 ExchangeRatesMocks:

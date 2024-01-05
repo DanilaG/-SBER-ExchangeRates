@@ -21,7 +21,7 @@ let package = Package(
         .package(url: "https://github.com/Quick/Nimble.git", exact: "12.3.0"),
         .package(url: "https://github.com/MakeAWishFoundation/SwiftyMocky", exact: "4.2.0"),
         .package(url: "https://github.com/mac-cain13/R.swift.git", exact: "7.4.0"),
-        .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", from: "1.15.1"),
+        .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", from: "1.15.1")
     ],
     targets: [
         .target(
@@ -43,7 +43,8 @@ let package = Package(
                 "TestsExtension",
                 .product(name: "SnapshotTesting", package: "swift-snapshot-testing")
             ],
-            resources: [.process("Data")]
+            resources: [.process("Data")],
+            plugins: [.plugin(name: "RswiftGeneratePublicResources", package: "R.swift")]
         )
     ]
 )

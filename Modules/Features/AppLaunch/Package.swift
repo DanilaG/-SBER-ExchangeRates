@@ -43,7 +43,8 @@ let package = Package(
                 "Nimble",
                 "TestsExtension",
                 .product(name: "SnapshotTesting", package: "swift-snapshot-testing")
-            ]
+            ],
+            plugins: [.plugin(name: "RswiftGeneratePublicResources", package: "R.swift")]
         )
     ]
 )

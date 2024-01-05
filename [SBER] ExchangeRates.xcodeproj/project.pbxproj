@@ -28,6 +28,7 @@
 		836F31452B25857F001F210E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		836F318D2B25EBF2001F210E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		83AF13CA2B46A1A600052430 /* TestsExtension */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TestsExtension; path = Modules/Core/TestsExtension; sourceTree = "<group>"; };
+		83D49E922B48417D00EACFBA /* [SBER] ExchangeRatesFullTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "[SBER] ExchangeRatesFullTests.xctestplan"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 				836F318C2B25EBCF001F210E /* Flows */,
 				836F318F2B25F02B001F210E /* Resources */,
 				836F31412B25857B001F210E /* _SBER__ExchangeRatesApp.swift */,
+				83D49E922B48417D00EACFBA /* [SBER] ExchangeRatesFullTests.xctestplan */,
 				8313C7202B31CD2100B07B31 /* LaunchScreen.storyboard */,
 			);
 			path = "[SBER] ExchangeRates";
