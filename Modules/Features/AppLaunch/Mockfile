@@ -1,0 +1,12 @@
+sourceryCommand: null
+sourceryTemplate: null
+
+AppLaunchMocks:
+  sources:
+    include:
+    - ./
+  output: ./Tests/AppLaunchTests/Generated/Mocks.swift
+  targets:
+  - AppLaunchTests
+  testable:
+  - AppLaunch

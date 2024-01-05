@@ -19,9 +19,9 @@ struct ExchangeRateViewData {
     let rateDescription: String
 }
 
+// sourcery: AutoMockable
 /// Протокол view model экрана списка валют
-@MainActor
-protocol ExchangeRatesViewModel: ObservableObject {
+@MainActor protocol ExchangeRatesViewModel: ObservableObject {
     /// Курсы валют
     var rates: [ExchangeRateViewData] { get }
     /// Наличие ошибки перезагрузки

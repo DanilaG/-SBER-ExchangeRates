@@ -27,6 +27,7 @@
 		836F31412B25857B001F210E /* _SBER__ExchangeRatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _SBER__ExchangeRatesApp.swift; sourceTree = "<group>"; };
 		836F31452B25857F001F210E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		836F318D2B25EBF2001F210E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		83AF13CA2B46A1A600052430 /* TestsExtension */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TestsExtension; path = Modules/Core/TestsExtension; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		8313C7282B31DF9900B07B31 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				83AF13CA2B46A1A600052430 /* TestsExtension */,
 				8313C7302B31E10900B07B31 /* Assembler */,
 				8313C72A2B31E0C800B07B31 /* Network */,
 			);
@@ -77,6 +79,7 @@
 				835DF4D32B28D0BF00F0387C /* Packages */,
 				836F31402B25857B001F210E /* [SBER] ExchangeRates */,
 				836F313F2B25857B001F210E /* Products */,
+				83AF13C42B46A05900052430 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +116,13 @@
 				836F31452B25857F001F210E /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		83AF13C42B46A05900052430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		83EDCFC52B28C66A0003857A /* Main */ = {

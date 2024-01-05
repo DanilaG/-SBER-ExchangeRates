@@ -16,8 +16,8 @@ struct AppLaunchScreen<ViewModel: AppLaunchViewModel>: View {
     
     var body: some View {
         ZStack(alignment: .center) {
-            Color("LaunchBackgroundColor")
-            Image("LaunchLogo")
+            Color(R.color.launchBackgroundColor)
+            Image(R.image.launchLogo)
             VStack {
                 Spacer()
                 ProgressView()

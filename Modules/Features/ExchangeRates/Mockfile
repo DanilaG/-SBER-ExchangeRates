@@ -11,5 +11,5 @@ ExchangeRatesMocks:
   - ExchangeRatesTests
   testable:
   - ExchangeRates
-  imports:
+  import:
   - Network

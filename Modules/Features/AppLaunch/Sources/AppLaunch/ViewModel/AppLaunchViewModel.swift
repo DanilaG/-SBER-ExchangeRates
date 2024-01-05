@@ -7,6 +7,7 @@
 
 import Foundation
 
+// sourcery: AutoMockable
 /// View model экрана загрузки
 protocol AppLaunchViewModel: ObservableObject {
     /// Состояние загрузки
@@ -60,7 +61,6 @@ final class AppLaunchViewModelImpl<T>: AppLaunchViewModel {
                     input.dataProvider()
                 )
             } catch {
-                print("!!==error")
                 state = .error
             }
         }
